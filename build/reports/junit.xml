@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<testsuites>
-    <testsuite name="syntax-check" tests="1" failures="0" time="3">
-        <testcase name="Синтаксическая проверка конфигурации" classname="syntax-check"/>
-    </testsuite>
-</testsuites>

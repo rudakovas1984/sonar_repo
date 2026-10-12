@@ -10,8 +10,9 @@ pipeline
 
     post {
         always {
-            allure commandline: 'allure', includeProperties: false, jdk: '', resultPolicy: 'LEAVE_AS_IS', results: [[path: 'build/reports/allure']]
-            junit 'build/reports/junit.xml'
+            allure commandline: 'allure', includeProperties: false, jdk: '', resultPolicy: 'LEAVE_AS_IS', results: [[path: 'build/reports/syntax-check/allure'], [path: 'build/reports/smoke/allure']]
+            junit allowEmptyResults: true, 'build/reports/syntax-check/junit.xml'
+            junit allowEmptyResults: true, 'build/reports/smoke/junit/*.xml'
         }
         failure {
             bat "echo failure"
@@ -33,6 +34,19 @@ pipeline
             steps {
                 bat "chcp 65001"
                 bat "vrunner validate syntax-check --ibconnection \"/F C:\\repo\\sonar_repo\\build\\ib\""
+            }
+        }
+        stage("Smoke tests") {
+            steps {
+                script {
+                    try {
+                        bat "chcp 65001"
+                        bat "xrunner xunit"
+                    }
+                    catch(Exception Exc) {
+                        currentBuild.result = 'UNSTABLE'
+                    }
+                }
             }
         }
     }
