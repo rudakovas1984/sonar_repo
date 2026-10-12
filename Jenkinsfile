@@ -21,7 +21,7 @@ pipeline
     }
 
     stages {
-        stage {
+        stage("stage") {
             bat "echo Messages from steps"
             bat "echo envString = ${envString}"
 
