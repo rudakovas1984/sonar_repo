@@ -22,11 +22,13 @@ pipeline
 
     stages {
         stage("stage") {
-            bat "echo Messages from steps"
-            bat "echo envString = ${envString}"
-
-            script {
-                scannerHome = tool "sonar-scanner"
+            steps {
+                bat "echo Messages from steps"
+                bat "echo envString = ${envString}"
+                
+                script {
+                    scannerHome = tool "sonar-scanner"
+                }
             }
         }
     }
