@@ -11,7 +11,10 @@ pipeline {
         always {
             junit allowEmptyResults: true, testResults: 'build/reports/syntax-check/junit.xml'
             junit allowEmptyResults: true, testResults: 'build/reports/smoke/junit/*.xml'
-            allure commandline: 'allure', includeProperties: false, jdk: '',
+
+            allure commandline: 'allure',
+                   includeProperties: false,
+                   jdk: '',
                    resultPolicy: 'LEAVE_AS_IS',
                    results: [
                        [path: 'build/reports/syntax-check/allure'],
@@ -38,7 +41,7 @@ pipeline {
         stage("Syntax check") {
             steps {
                 bat "chcp 65001"
-                bat "vrunner validate syntax-check --ibconnection \"/F C:\\repo\\sonar_repo\\build\\ib\" --report-format junit --report-format allure --report-path \"C:\\repo\\sonar_repo\\build\\reports\\syntax-check\""
+                bat "vrunner validate syntax-check --ibconnection \"/F C:\\repo\\sonar_repo\\build\\ib\" --report-format junit --report-format allure --report-path \"%WORKSPACE%\\build\\reports\\syntax-check\""
             }
         }
 
@@ -47,7 +50,7 @@ pipeline {
                 script {
                     try {
                         bat "chcp 65001"
-                        bat "xrunner xunit --report-format junit --report-format allure --report-path \"C:\\repo\\sonar_repo\\build\\reports\\smoke\""
+                        bat "vrunner test xunit --ibconnection \"/F C:\\repo\\sonar_repo\\build\\ib\" --report-format junit --report-format allure --report-path \"%WORKSPACE%\\build\\reports\\smoke\" \"%WORKSPACE%\\tests\""
                     } catch (Exception Exc) {
                         currentBuild.result = 'UNSTABLE'
                     }

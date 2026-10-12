@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
 	<ConfigVersions>
-		<Metadata name="Catalog.company" id="b7f880e4-e85e-4227-8b3c-dcf975358bf0" configVersion="8007be3033fab943a4b1cac0fbe9812b00000000">
+		<Metadata name="Catalog.company" id="b7f880e4-e85e-4227-8b3c-dcf975358bf0" configVersion="95a87a6da00bf144aebdf041f0c47c6900000000">
 			<Metadata name="Catalog.company.Attribute.symbol" id="b6de8351-ef09-4601-a201-f80258fa1d8c"/>
 			<Metadata name="Catalog.company.Attribute.ЗагружатьДанные" id="bdefb2b5-afe1-4fb3-a085-b31fa345f194"/>
 		</Metadata>
-		<Metadata name="CommonModule.РегламентныеМетоды" id="6d229084-f482-44df-9e71-55fbb34db7f6" configVersion="0a6a39f1e84f3e45aae44b55afdcb08d00000000"/>
-		<Metadata name="CommonModule.РегламентныеМетоды.Module" id="6d229084-f482-44df-9e71-55fbb34db7f6.0" configVersion="ed2f261b3cf34c4bb4b6eef67a1eb62600000000"/>
-		<Metadata name="Configuration.Конфигурация" id="abf18da9-484d-4d3a-a5a5-0274c4d186dd" configVersion="12d293e1ec553e44802005675ec57aef00000000"/>
-		<Metadata name="Constant.alphavantage_apikey" id="05c0d12a-17e0-409e-be9d-e84176a0e5d6" configVersion="10e6da303336ce4698af639fff5eaf1c00000000"/>
-		<Metadata name="DataProcessor.alphavantage_обмен" id="d1139845-47a3-4a70-9387-2033835e8920" configVersion="01b8ce978988ae4197a69f46e12e0f0a00000000"/>
-		<Metadata name="DataProcessor.alphavantage_обмен.Form.Форма" id="e4db2dc3-4148-4f44-8923-2feb69ad65a7" configVersion="13620e3cb7d8f748b401ee7d569c88ec00000000"/>
-		<Metadata name="DataProcessor.alphavantage_обмен.Form.Форма.Form" id="e4db2dc3-4148-4f44-8923-2feb69ad65a7.0" configVersion="c3c0507e9a72a54cb4aebfadb752fe7d00000000"/>
-		<Metadata name="Document.ЗаписьКлиента" id="378a3229-306d-4457-9596-78833ffd89cc" configVersion="b754c277550c7c4d938b5a90cd2790ed00000000">
+		<Metadata name="CommonModule.РегламентныеМетоды" id="6d229084-f482-44df-9e71-55fbb34db7f6" configVersion="672c6c648f8ce94290666adc53913e8c00000000"/>
+		<Metadata name="CommonModule.РегламентныеМетоды.Module" id="6d229084-f482-44df-9e71-55fbb34db7f6.0" configVersion="e21175e00a1d8046aa44f9458095751a00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="abf18da9-484d-4d3a-a5a5-0274c4d186dd" configVersion="2cf1b02a8ac3ed45892f81d74b932ede00000000"/>
+		<Metadata name="Constant.alphavantage_apikey" id="05c0d12a-17e0-409e-be9d-e84176a0e5d6" configVersion="fa7ba7a43b3ad543bbc6b5e86bb0ff9100000000"/>
+		<Metadata name="DataProcessor.alphavantage_обмен" id="d1139845-47a3-4a70-9387-2033835e8920" configVersion="6d97aa21564d9742b6d970a8a430811c00000000"/>
+		<Metadata name="DataProcessor.alphavantage_обмен.Form.Форма" id="e4db2dc3-4148-4f44-8923-2feb69ad65a7" configVersion="a9561b5b3228b74ba5e2585a4a7af34100000000"/>
+		<Metadata name="DataProcessor.alphavantage_обмен.Form.Форма.Form" id="e4db2dc3-4148-4f44-8923-2feb69ad65a7.0" configVersion="e4cf82ee765c464daf57bc3d9f13975600000000"/>
+		<Metadata name="Document.ЗаписьКлиента" id="378a3229-306d-4457-9596-78833ffd89cc" configVersion="6b6a79123d9a6b488d7d5f8cd57234a700000000">
 			<Metadata name="Document.ЗаписьКлиента.Attribute.Врач" id="01a4ce6e-9c31-4566-96d6-64a43778a114"/>
 			<Metadata name="Document.ЗаписьКлиента.Attribute.ДатаВремяОкончанияПриема" id="21f91fad-a27c-4ffb-9f46-2cdd5c88ea4d"/>
 			<Metadata name="Document.ЗаписьКлиента.Attribute.ДатаВремяНачалаПриема" id="d800130a-82bd-49d3-9f4a-14e111ab897b"/>
 			<Metadata name="Document.ЗаписьКлиента.Attribute.Клиент" id="e991d974-c428-4012-ba18-a28937295b0e"/>
 		</Metadata>
-		<Metadata name="HTTPService.ЗаписьКлиентаСервис" id="e3f071a1-b131-4f6c-8de1-9864bb2db805" configVersion="cb56ad3409353a4481b7615d9b40697800000000">
+		<Metadata name="HTTPService.ЗаписьКлиентаСервис" id="e3f071a1-b131-4f6c-8de1-9864bb2db805" configVersion="d3fd7ead3f7cf24fb445f59979b62d7300000000">
 			<Metadata name="HTTPService.ЗаписьКлиентаСервис.URLTemplate.ПолучитьЗаписи" id="5c6db43b-7b11-44f0-bae7-27f126c67a67"/>
 			<Metadata name="HTTPService.ЗаписьКлиентаСервис.URLTemplate.СоздатьЗаписи.Method.POST" id="a2f8a062-16c1-42bc-af29-ac2caf7caf92"/>
 			<Metadata name="HTTPService.ЗаписьКлиентаСервис.URLTemplate.ПолучитьЗаписи.Method.GET" id="a5ff4850-9fd4-4da7-a5d9-f75c9b9e7f49"/>
 			<Metadata name="HTTPService.ЗаписьКлиентаСервис.URLTemplate.СоздатьЗаписи" id="f94daaec-3844-40ac-8d7c-d27a0e791379"/>
 		</Metadata>
-		<Metadata name="HTTPService.ЗаписьКлиентаСервис.Module" id="e3f071a1-b131-4f6c-8de1-9864bb2db805.0" configVersion="d85e79ceb54ace4fb7f4ba32c60f4b2d00000000"/>
-		<Metadata name="InformationRegister.TIME_SERIES_DAILY" id="48c3e9ef-c0d6-4d53-b5b0-058a65b8b914" configVersion="591126c37200df4387f5250a6c8cadcc00000000">
+		<Metadata name="HTTPService.ЗаписьКлиентаСервис.Module" id="e3f071a1-b131-4f6c-8de1-9864bb2db805.0" configVersion="e257752133c9f642a883cff159678ca000000000"/>
+		<Metadata name="InformationRegister.TIME_SERIES_DAILY" id="48c3e9ef-c0d6-4d53-b5b0-058a65b8b914" configVersion="15ffe262282a1943b9fd30383673180a00000000">
 			<Metadata name="InformationRegister.TIME_SERIES_DAILY.Resource.high" id="02c40c43-5ff6-49cc-bafd-7791a1fa5e53"/>
 			<Metadata name="InformationRegister.TIME_SERIES_DAILY.Dimension.company" id="99e1dacc-806e-4f7d-bec5-2b10a3c16de9"/>
 			<Metadata name="InformationRegister.TIME_SERIES_DAILY.Resource.close" id="9cc88e3b-00fa-480a-bccc-39d26a2cb4fc"/>
@@ -33,7 +33,7 @@
 			<Metadata name="InformationRegister.TIME_SERIES_DAILY.Resource.open" id="d961e00e-e047-4c14-a572-661fc4e4e8d7"/>
 			<Metadata name="InformationRegister.TIME_SERIES_DAILY.Resource.low" id="e2bbdff6-07f2-43a2-8914-921872ea725f"/>
 		</Metadata>
-		<Metadata name="Language.Русский" id="f5d6888d-8876-41d3-9db6-6ccb8187756b" configVersion="076a2ed434c9fc49bc37ce7b72a6943100000000"/>
-		<Metadata name="ScheduledJob.alphavantage_обмен" id="ee64b870-d580-44ad-a0f7-603301df9213" configVersion="3cf7c1df75887642af907acd0265251000000000"/>
+		<Metadata name="Language.Русский" id="f5d6888d-8876-41d3-9db6-6ccb8187756b" configVersion="37a932e2f9178b43a69238979a6c706200000000"/>
+		<Metadata name="ScheduledJob.alphavantage_обмен" id="ee64b870-d580-44ad-a0f7-603301df9213" configVersion="6dc953690521334cb85a8798c0be73bd00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

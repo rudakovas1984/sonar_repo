@@ -1,0 +1,27 @@
+{
+	"uuid": "45abcf79-e984-498e-ad6e-43526e363798",
+	"historyId": "syntax-check.Синтаксическая проверка конфигурации",
+	"name": "Синтаксическая проверка конфигурации",
+	"fullName": "syntax-check.Синтаксическая проверка конфигурации",
+	"status": "passed",
+	"stage": "finished",
+	"start": 1791809690000,
+	"stop": 1791809693000,
+	"labels": [
+		{
+			"name": "suite",
+			"value": "syntax-check"
+		},
+		{
+			"name": "severity",
+			"value": "normal"
+		},
+		{
+			"name": "framework",
+			"value": "vanessa-runner"
+		}
+	],
+	"steps": [],
+	"parameters": [],
+	"attachments": []
+}
