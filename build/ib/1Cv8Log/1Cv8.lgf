@@ -8,9 +8,4 @@
 {13,1,1},
 {4,"_$Session$_.Start",2},
 {4,"_$InfoBase$_.RestoreStart",3},
-{4,"_$Session$_.Finish",4},
-{4,"_$InfoBase$_.DBConfigUpdateStart",5},
-{4,"_$InfoBase$_.ExclusiveModeChange",6},
-{4,"_$InfoBase$_.PredefinedDataUpdate",7},
-{5,b7f880e4-e85e-4227-8b3c-dcf975358bf0,"",1},
-{4,"_$InfoBase$_.DBConfigUpdate",8}
+{4,"_$Session$_.Finish",4}
