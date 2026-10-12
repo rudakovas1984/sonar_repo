@@ -1,3 +1,7 @@
-vrunner init-dev --dt C:\jenkins\template\dev.dt --db-user Администратор --src C:\repo\sonar_repo
+vrunner init-dev --dt C:\jenkins\template\dev.dt --db-user Администратор --src C:\repo\sonar_repo\src
 
-vrunner infobase init --dt "C:\jenkins\template\dev.dt" --src "C:\repo\sonar_repo\src" --ibconnection "/F C:\jenkins\workspace\pipeline\build\ib"
+vrunner infobase init --src "C:\jenkins\template\dev.dt" --ibconnection "/F C:\jenkins\workspace\pipeline\build\ib"
+vrunner cf load --ibconnection "/F C:\jenkins\workspace\pipeline\build\ib" --db-user "Администратор" "C:\repo\sonar_repo\src"
+
+vrunner infobase init --src "C:\jenkins\template\dev.dt" --ibconnection "/F C:\repo\sonar_repo\build\ib"
+vrunner cf load --ibconnection "/F C:\repo\sonar_repo\build\ib" "C:\repo\sonar_repo\src"
