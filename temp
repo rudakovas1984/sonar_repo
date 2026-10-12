@@ -6,3 +6,7 @@
 vrunner infobase init --src "C:\jenkins\template\dev.dt" --ibconnection "/F C:\repo\sonar_repo\build\ib"
 vrunner cf load --ibconnection "/F C:\repo\sonar_repo\build\ib" "C:\repo\sonar_repo\src"
 
+vrunner validate syntax-check --ibconnection "/F C:\repo\sonar_repo\build\ib"
+vrunner validate syntax-check --ibconnection "/F C:\repo\sonar_repo\build\ib" --report-format junit --report-format allure --report-path "C:\repo\sonar_repo\build\reports"
+
+C:\repo\sonar_repo\build\reports\junit.xml
