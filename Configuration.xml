@@ -254,7 +254,7 @@
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<Version85InterfaceMigrationMode>DontUse</Version85InterfaceMigrationMode>
 			<DatabaseTablespacesUseMode>DontUse</DatabaseTablespacesUseMode>
-			<CompatibilityMode>Version8_5_1</CompatibilityMode>
+			<CompatibilityMode>Version8_3_27</CompatibilityMode>
 			<DefaultConstantsForm/>
 		</Properties>
 		<ChildObjects>

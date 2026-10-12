@@ -7,7 +7,7 @@
 		</Metadata>
 		<Metadata name="CommonModule.РегламентныеМетоды" id="6d229084-f482-44df-9e71-55fbb34db7f6" configVersion="a74080f0d55410459949ba92beeb4a3e00000000"/>
 		<Metadata name="CommonModule.РегламентныеМетоды.Module" id="6d229084-f482-44df-9e71-55fbb34db7f6.0" configVersion="b28ffee0ec65614dba9b860b6218783500000000"/>
-		<Metadata name="Configuration.Конфигурация" id="abf18da9-484d-4d3a-a5a5-0274c4d186dd" configVersion="3a482409daf64044b5d01de4f52bc44100000000"/>
+		<Metadata name="Configuration.Конфигурация" id="abf18da9-484d-4d3a-a5a5-0274c4d186dd" configVersion="0d95a706cbad3a40aa340af555ec65b800000000"/>
 		<Metadata name="Constant.alphavantage_apikey" id="05c0d12a-17e0-409e-be9d-e84176a0e5d6" configVersion="3ad4aa356e66b14eb92d4391c194bde300000000"/>
 		<Metadata name="DataProcessor.alphavantage_обмен" id="d1139845-47a3-4a70-9387-2033835e8920" configVersion="ea78027eec1ce148a9650343eeaa926f00000000"/>
 		<Metadata name="DataProcessor.alphavantage_обмен.Form.Форма" id="e4db2dc3-4148-4f44-8923-2feb69ad65a7" configVersion="6c5467730e4ac04ab1dc2d27fad92ea200000000"/>
