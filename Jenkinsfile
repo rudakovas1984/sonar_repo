@@ -21,14 +21,9 @@ pipeline
     }
 
     stages {
-        stage("stage") {
+        stage("Build test base") {
             steps {
-                bat "echo Messages from steps"
-                bat "echo envString = ${envString}"
-                
-                script {
-                    scannerHome = tool "sonar-scanner"
-                }
+                bat "chcp 65001\n vrunner infobase init --src \"C:\\jenkins\\template\\dev.dt\" --ibconnection \"/F C:\\repo\\sonar_repo\\build\\ib\"\n vrunner cf load --ibconnection \"/F C:\\repo\\sonar_repo\\build\\ib\" \"C:\\repo\\sonar_repo\\src\""
             }
         }
     }
