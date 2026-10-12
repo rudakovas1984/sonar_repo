@@ -1,0 +1,3 @@
+vrunner init-dev --dt C:\jenkins\template\dev.dt --db-user Администратор --src C:\repo\sonar_repo
+
+vrunner infobase init --dt "C:\jenkins\template\dev.dt" --src "C:\repo\sonar_repo\src" --ibconnection "/F C:\jenkins\workspace\pipeline\build\ib"
